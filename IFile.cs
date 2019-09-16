@@ -5,8 +5,6 @@
     /// </summary>
     public interface IFile
     {
-        #region Properties
-
         /// <summary>
         /// A byte array representing the file contents
         /// </summary>
@@ -16,7 +14,5 @@
         /// The full path to the file, or full name for the file
         /// </summary>
         string FileName { get; }
-
-        #endregion Properties
     }
 }
