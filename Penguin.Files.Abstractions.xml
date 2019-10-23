@@ -14,7 +14,7 @@
             A byte array representing the file contents
             </summary>
         </member>
-        <member name="P:Penguin.Files.Abstractions.IFile.FileName">
+        <member name="P:Penguin.Files.Abstractions.IFile.FullName">
             <summary>
             The full path to the file, or full name for the file
             </summary>

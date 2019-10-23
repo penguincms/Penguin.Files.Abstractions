@@ -8,11 +8,11 @@
         /// <summary>
         /// A byte array representing the file contents
         /// </summary>
-        byte[] Data { get; }
+        byte[] Data { get; set; }
 
         /// <summary>
         /// The full path to the file, or full name for the file
         /// </summary>
-        string FileName { get; }
+        string FullName { get; set; }
     }
 }
